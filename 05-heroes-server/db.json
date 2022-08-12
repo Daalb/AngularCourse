@@ -166,6 +166,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "superhero": "Walter Hero",
+      "alter_ego": "Walter",
+      "characters": "",
+      "first_appearance": "",
+      "publisher": "DC Comics",
+      "alt_img": "https://i.pinimg.com/736x/a6/5c/c1/a65cc134aa0dd9224e213bebcaf38750.jpg",
+      "id": "YRMWqlX"
     }
   ]
 }
