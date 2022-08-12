@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ErrorPageComponent } from './shared/error-page/error-page.component';
+import { AuthGuard } from './auth/guards/auth.guard';
 
 const routes: Routes = [
   {
     path: 'auth',//*Cuando alguien entra al path auth carga sus hijos 
-    loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule)//*Los hijos vienen de la ruta auth.module cuando se carguen(por eso el then) el modulo que se regresará es AuthModule
+    loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule)//*Los hijos vienen de la ruta auth.module cuando se carguen(por eso el then) el modulo que se regresará es AuthModule,
   },
   {
     path: 'heroes',
